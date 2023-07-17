@@ -1,0 +1,42 @@
+Package: fopi.app
+Title: PKG_TITLE
+Version: 0.0.0.9000
+Authors@R: person('AUTHOR_FIRST', 'AUTHOR_LAST', email = 'AUTHOR@MAIL.COM', role = c('cre', 'aut'))
+Description: PKG_DESC.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    emo,
+    fopi,
+    shiny,
+    golem,
+    dplyr,
+    tidyr,
+    typedjs,
+    fullPage,
+    magrittr,
+    echarts4r,
+    shinythemes,
+    shinyWidgets,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    thinkr
+RoxygenNote: 7.2.3
+Remotes:
+  hadley/emo,
+  news-r/fopi,
+  JohnCoene/typed,
+  RinteRface/fullPage
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown,
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+VignetteBuilder: knitr
